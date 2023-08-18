@@ -8,18 +8,23 @@ import Countdown from './components/Countdown.vue'
   </main>
 </template>
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Roboto+Condensed:wght@300;400;700&display=swap');
+<style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 
 #app {
-  width: 100vw;
-  height: 100vh;
-  display: block;
+  height: 100%;
 }
 
 main {
   height: 100%;
 
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Bruno Ace SC', cursive;
+}
+
+body,
+html {
+  height: 100%;
+
+  background: #000;
 }
 </style>
